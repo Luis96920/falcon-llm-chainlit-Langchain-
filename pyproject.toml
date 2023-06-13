@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "langchain-falcon-llm-chainlit"
+version = "0.1.0"
+description = ""
+authors = ["Pascal Giessler <pmgiessler@googlemail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "langchain_falcon_llm_chainlit"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-decouple = "^3.8"
+langchain = "^0.0.198"
+chainlit = "^0.2.111"
+huggingface-hub = "^0.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
